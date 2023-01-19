@@ -16,7 +16,7 @@ namespace Matrix
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < columns; j++)
-                    matrix[i, j] = random.Next(-1, 5);
+                    matrix[i, j] = random.Next(-1, 2);
             }
             return matrix;
         }
